@@ -1,0 +1,30 @@
+body{
+    margin: 100px;
+}
+.fixed_position{
+    position: fixed;
+    padding: 40px;
+    left: 0px;
+    background: lightgrey;
+    text-align: center;
+}
+.box{
+}
+
+.relative_position{
+    position: relative;
+    height: 200px;
+    background: lightgray;
+    right: 20px;
+    text-align: center;
+}
+
+.absolute_position{
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    background: darkgray;
+    right: -20px;
+    bottom: 0px;
+}
